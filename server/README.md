@@ -29,5 +29,12 @@ bfCtrl.startTickerListener('tBTCUSD')
 If you want to run in forever mode (the listener will kill itself and refresh the instance upon problems to ensure continued data collection) do it via `pm2`:
 ```bash
 $ sudo npm install -g pm2
+```
+To start the API server in forever mode:
+```bash
 $ tsc && pm2 start dist/index.js
+```
+To start the scripts:
+```bash
+$ tsc && pm2 start scripts/start-bitfinex-eth-usd-listener.js
 ```
