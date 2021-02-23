@@ -1,0 +1,14 @@
+{
+    "mysql" : {
+        "connectionLimit" : 10,
+        "host"            : "localhost",
+        "port"         : 3306,
+        "user"            : "",
+        "password"        : "",
+        "database"        : "abcapital",
+        "charset" : "utf8mb4"
+    },
+    "http" : {
+        "port" : 5000
+    }
+}
